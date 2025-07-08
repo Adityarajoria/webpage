@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    
+    <link rel="stylesheet" href="pg.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Password Generator</h1>
+
+        <div class="result-container">
+            <span id="result">Your Password Here</span>
+        </div>
+        
+        <div class="options">
+            <div class="option">
+                <label for="length">Password Length</label>
+                <input type="number" id="length" min="8" max="64" value="16">
+            </div>
+            <div class="option">
+                <label for="uppercase">Include Uppercase</label>
+                <input type="checkbox" id="uppercase" checked>
+            </div>
+            <div class="option">
+                <label for="numbers">Include Numbers</label>
+                <input type="checkbox" id="numbers" checked>
+            </div>
+            <div class="option">
+                <label for="special">Include Special Chars</label>
+                <input type="checkbox" id="special" checked>
+            </div>
+        </div>
+
+        <button id="generate">Generate Password</button>
+    </div>
+
+    
+    <script src="pg.js"></script>
+</body>
+</html>
