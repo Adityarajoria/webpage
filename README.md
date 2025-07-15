@@ -26,5 +26,7 @@ Step I Did:
    sudo cp -r webpage/* /var/www/html/
 10. I opened Port 80 in EC2 Security Group
 11. I use Elastic IP to keep the same IP always
-12. My Public IP: ![Screenshot 2025-07-01 200524](https://github.com/user-attachments/assets/e1da62a2-52cd-4474-9a50-99e042f95c80)![Screenshot 2025-07-01 200541](https://github.com/user-attachments/assets/ade6b3a7-f04f-49c5-b611-5c864c8c8b4c)
+12. My Public IP: http://13.235.49.0
+
+<img width="1918" height="960" alt="Screenshot 2025-07-15 232337" src="https://github.com/user-attachments/assets/1ec369aa-b6c4-4792-8f29-b61c13eddd47" />
 
